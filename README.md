@@ -21,7 +21,7 @@ Suffice it to say, DDoS attacks are both disruptive and costly to businesses, an
 The goal is to block as much of the malicious traffic from the DDoS attack as much as possible, while still correctly classifying all benign traffic. 
 
 ## Success Metrics:
-Given Benign traffic is our minority/positve class, success will be determined first by recall being 100%, and second by precision being as high as possible, ideally above 85%.
+Given benign traffic is our minority/positve class, success will be determined first by recall being 100%, and second by precision being as high as possible, ideally above 85%.
 
 ## Data Description:
 The data used in this project has been used with permission from the Canadian Institute for Cybersecurity, located at the University of New Brunswick. The data includes network traffic logs across two days for multiple DDoS attack types, such as LDAP, SYN, PortMap, NetBIOS, MSSQL. Each dataset was simulated by the CIC, and is composed of malicious traffic labelled by DDoS attack type, and benign traffic meant to simulate legitimate traffic in the midst of a DDoS attack. The data is heavily imbalanced toward malicious traffic, as one would expect to see in a real-world situation.
