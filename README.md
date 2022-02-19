@@ -18,11 +18,11 @@ A [2017 Kaspersky Survey](https://usa.kaspersky.com/about/press-releases/2018_dd
 Suffice it to say, DDoS attacks are both disruptive and costly to businesses, and increasingly commonplace. Therefore, it is  important for organizations to  have the technology needed to effectively 'weather the storm' at their disposal. In this project, we will assess the viability of using classification models to successfully identify traffic as malicious or benign, in an effort to maintain network/service availability.
 <br></br>
 ## Goal:
-Beyond successfully identifying traffic as benign or malicious, the goal of this project will be to identify benign traffic with 100% accuracy. We will also strive to successfully identify malicious traffic with at least 85% accuracy. The rationale for these choices is that We do not ever want to block legitimate network traffic, as that would be achieving the same goals of the DDoS attack. Relatedly, we are willing to accept a higher degree of malicious traffic incorrectly identified as benign, because a marginal decrease in network/service performance due to some malicious traffic getting through is a preferrable alternative to blocking legitimate traffic.
+The goal is to block as much of the malicious traffic from the DDoS attack as much as possible, while still correctly classifying all benign traffic. 
 
 ## Success Metrics:
-The metric by which we measure success for this project will be its capability to predict benign traffic as close to 100% as possible. Beyond that, boosting the prediction accuracy for malicious traffic while maintaining 100% accuracy for beging traffic will be the guiding star.
-<br></br>
+Given benign traffic is our minority/positve class, success will be determined first by recall being 100%, and second by precision being as high as possible, ideally above 85%.
+
 ## Data Description:
 The data used in this project has been used with permission from the Canadian Institute for Cybersecurity, located at the University of New Brunswick. The data includes network traffic logs across two days for multiple DDoS attack types, such as LDAP, SYN, PortMap, NetBIOS, MSSQL. Each dataset was simulated by the CIC, and is composed of malicious traffic labelled by DDoS attack type, and benign traffic meant to simulate legitimate traffic in the midst of a DDoS attack. The data is heavily imbalanced toward malicious traffic, as one would expect to see in a real-world situation.
 <br></br>
