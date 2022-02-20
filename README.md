@@ -3,9 +3,9 @@
 
 ## Statement of Need:
 
-Distributed Denial of Service (DDoS) attacks are a common form of malicious activity intended to disrupt the operations of an organization. To accomplish this, DDoS attacks flood a victim network, service, or infrastructure with orchestrated junk traffic. This junk traffic swamps its target, severely limiting availability and oftentimes bringing its victim down entirely.
+Distributed Denial of Service (DDoS) attacks are a common form of malicious activity intended to disrupt the operations of an organization. To accomplish this, DDoS attacks flood a victim network, service, or infrastructure with orchestrated junk traffic. This junk traffic swamps its target, severely limiting availability and oftentimes bringing it offline entirely.
 
-DDoS attacks are effective because they make use of multiple compromised computer systems as sources of malicious traffic, hence the 'Distributed' part in Distributed Denial of Service. These 'bots' or 'zombies' are infected with malware that allows an attacker to control them remotely. The bots are then orchestrated into a 'botnet', and the attacker can orchestrate the attack by programmatically sending instructions to each bot. Compromised devices could be any internet connected device, such as computers, mundane household IoT items like [smart regrigerators](https://www.gruntworx.com/smart-tv-secure/) or [thermostats](https://mashable.com/article/casino-smart-thermometer-hacked).
+DDoS attacks are effective and difficult to detect because they make use of multiple compromised computer systems as sources of malicious traffic, hence the 'Distributed' part in Distributed Denial of Service. These 'bots' (or 'zombies') are devices infected with malware that allows an attacker to control them remotely. The bots are orchestrated into what is called a 'botnet', and the attacker can orchestrate the attack by sending instructions to the botnet. Compromised devices could be any internet connected device, like as computers, but also more mundane IoT items like [smart regrigerators](https://www.gruntworx.com/smart-tv-secure/) or [thermostats](https://mashable.com/article/casino-smart-thermometer-hacked).
 
 DDoS attacks are omnipresent in our internet-driven world. [The Digital Attack Map](https://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=0&time=18763&view=map) provides a live look at active DDoS attacks currently happening globally. DDoS attacks' ubiquity can likely be attributed to the relative ease with which they can be initiated. Further, some estimates place the cost of a month-long deployment of a mid-sized DDoS attack at [$311 on the Dark Web](https://www.missioncriticalmagazine.com/articles/93185-the-dark-web-ddos-attacks-sell-for-as-low-as-10-per-hour).
 
@@ -30,7 +30,7 @@ The data used in this project has been used with permission from the Canadian In
 ## Tools:
 - **Pandas**, **Numpy** for data ingestion, manipulation.
 -**Seaborn** for visualization.
-- **Scikit-Learn** for modelling, and evaluation.
+- **Scikit-Learn** and **XGBoost** for modelling, and evaluation.
 <br></br>
 ## Models:
 - Logistic Regression
