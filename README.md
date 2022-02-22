@@ -30,12 +30,12 @@ The data used in this project has been used with permission from the Canadian In
 ## Tools:
 - **Pandas**, **Numpy** for data ingestion, manipulation.
 -**Seaborn** for visualization.
-- **Scikit-Learn** and **XGBoost** for modelling, and evaluation.
+- **Scikit-Learn**, **Imbalanced-Learn**, and **XGBoost** for modelling, and evaluation.
 <br></br>
 ## Models:
-- Logistic Regression
-- Random Forest
-- Gradient Boosting
+- Logistic Regression (& weighted variants)
+- Random Forest (& weighted variants)
+- Gradient Boosted Trees
 <br></br>
 ## MVP Goal:
 Produce a baseline logistic regression model using all features present in the dataset and establish first-pass metrics to inform further iterations.
