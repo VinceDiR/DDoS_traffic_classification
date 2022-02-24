@@ -2,7 +2,7 @@
 
 The goal of this project is to create a model that can correctly identify benign, legitimate from malclious junk traffic in the midst of a DDoS attack. 
 
-![](mvp_confusion.png)
+![](https://github.com/NateDiR/DDoS_traffic_classification/blob/main/plots/mvp_confusion.png)
 
 As a first step, I created a logistic regression model using all features in the dataset. Parallelizing the fit process using Dask saved considerable time here.
 
