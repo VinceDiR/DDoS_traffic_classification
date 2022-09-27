@@ -1,0 +1,4 @@
+.trunk/trunk.yaml
+.trunk/config/.markdownlint.yaml
+dask-worker-space/
+.ipynb_checkpoints/
