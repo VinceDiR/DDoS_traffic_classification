@@ -5,3 +5,7 @@
 plugins
 user_trunk.yaml
 user.yaml
+.trunk/trunk.yaml
+.trunk/config/.markdownlint.yaml
+dask-worker-space/
+.ipynb_checkpoints/
